@@ -1,0 +1,268 @@
+{
+  "format": 1,
+  "version": 1,
+  "updated": "2026-11-12",
+  "items": [
+    {
+      "id": "gps-not-coming", "topic": "gps", "fix": "gps",
+      "q": { "en": "GPS position is not coming", "hi": "GPS लोकेशन नहीं आ रही" },
+      "keywords": ["gps", "location", "position", "fix", "map", "लोकेशन", "जीपीएस", "नक्शा"],
+      "a": {
+        "en": "1. The vehicle must be outside under open sky, not in a shed, basement or between tall buildings.\n2. The GPS antenna must face the sky: on the roof or on top of the dashboard under clear glass. Not under metal, not behind tinted glass.\n3. Push the antenna cable fully into the GPS socket of the modem (marked GNSS or GPS).\n4. Keep the vehicle still and wait 2-5 minutes.\n5. Still nothing: run Fix a problem → GPS. It runs a satellite test for you.",
+        "hi": "1. गाड़ी बाहर खुले आसमान में हो, शेड, बेसमेंट या ऊँची इमारतों के बीच नहीं।\n2. GPS एंटीना आसमान की तरफ़ हो: छत पर या साफ़ शीशे के नीचे डैशबोर्ड के ऊपर। धातु के नीचे या काले शीशे के पीछे नहीं।\n3. एंटीना केबल मॉडेम के GPS सॉकेट (GNSS या GPS लिखा) में पूरी लगाएँ।\n4. गाड़ी स्थिर रखें और 2-5 मिनट रुकें।\n5. फिर भी न आए: समस्या ठीक करें → GPS खोलें। यह आपके लिए सैटेलाइट टेस्ट चलाएगा।"
+      }
+    },
+    {
+      "id": "gps-how-long", "topic": "gps",
+      "q": { "en": "How long does GPS take to get a position?", "hi": "GPS को लोकेशन लेने में कितना समय लगता है?" },
+      "keywords": ["gps", "time", "how long", "minutes", "wait", "समय", "कितना", "मिनट"],
+      "a": {
+        "en": "Under open sky: usually 2-5 minutes after power-up. After a long power cut or in a poor spot it can take more than 15 minutes. Indoors it may never come.",
+        "hi": "खुले आसमान में: बिजली आने के बाद आमतौर पर 2-5 मिनट। लंबी बिजली कटौती के बाद या खराब जगह पर 15 मिनट से ज़्यादा लग सकते हैं। अंदर शायद कभी न आए।"
+      }
+    },
+    {
+      "id": "gps-glass", "topic": "gps",
+      "q": { "en": "Can the GPS antenna be behind glass or inside the body?", "hi": "क्या GPS एंटीना शीशे के पीछे या बॉडी के अंदर रख सकते हैं?" },
+      "keywords": ["glass", "tinted", "inside", "body", "metal", "dashboard", "शीशा", "अंदर", "धातु", "डैशबोर्ड"],
+      "a": {
+        "en": "Clear glass is usually fine. Tinted or coated glass, metal panels and the vehicle body block GPS. Keep the antenna at least 20 cm from the 4G antenna and from motor wires.",
+        "hi": "साफ़ शीशा आमतौर पर ठीक है। काला या कोटेड शीशा, धातु के पैनल और गाड़ी की बॉडी GPS को रोकते हैं। एंटीना को 4G एंटीना और मोटर की तारों से कम से कम 20 cm दूर रखें।"
+      }
+    },
+    {
+      "id": "gps-4g-socket", "topic": "gps",
+      "q": { "en": "Which socket is GPS and which is 4G?", "hi": "कौन सा सॉकेट GPS का है और कौन सा 4G का?" },
+      "keywords": ["socket", "antenna", "4g", "lte", "main", "gnss", "swap", "सॉकेट", "एंटीना"],
+      "a": {
+        "en": "The modem socket marked GNSS or GPS takes the GPS antenna. The socket marked LTE or MAIN takes the 4G antenna. If they are swapped, both GPS and data get worse.",
+        "hi": "GNSS या GPS लिखे सॉकेट में GPS एंटीना लगता है। LTE या MAIN लिखे सॉकेट में 4G एंटीना। अगर उल्टे लगे हैं तो GPS और डेटा दोनों खराब होते हैं।"
+      }
+    },
+    {
+      "id": "lbs", "topic": "gps",
+      "q": { "en": "What is LBS (mobile tower location)?", "hi": "LBS (मोबाइल टावर लोकेशन) क्या है?" },
+      "keywords": ["lbs", "tower", "rough", "cell", "टावर", "अंदाज़न"],
+      "a": {
+        "en": "LBS gives a rough position from the mobile tower, usually within a few hundred metres. It works without sky view, so it helps when GPS is not possible. It is not as exact as GPS.",
+        "hi": "LBS मोबाइल टावर से अंदाज़न लोकेशन देता है, आमतौर पर कुछ सौ मीटर के अंदर। यह आसमान दिखे बिना काम करता है, इसलिए GPS न मिलने पर मदद करता है। यह GPS जितना सटीक नहीं है।"
+      }
+    },
+    {
+      "id": "no-data", "topic": "online", "fix": "online",
+      "q": { "en": "The cabinet is not online / no data", "hi": "कैबिनेट ऑनलाइन नहीं है / डेटा नहीं आ रहा" },
+      "keywords": ["online", "offline", "no data", "server", "network", "connect", "ऑनलाइन", "डेटा", "सर्वर", "नेटवर्क"],
+      "a": {
+        "en": "1. Check the Cabinet ID in the app matches the label exactly.\n2. Check there are lights on the controller and modem. No lights = no power: measure 12 V at the input.\n3. Check the SIM is inserted the right way, active and has data.\n4. Screw the 4G antenna on tightly.\n5. Switch off for 10 seconds, switch on, wait 3 minutes.",
+        "hi": "1. देखें कि ऐप में कैबिनेट ID लेबल से बिल्कुल मिलता है।\n2. देखें कि कंट्रोलर और मॉडेम पर लाइट जल रही है। लाइट नहीं = बिजली नहीं: इनपुट पर 12 V नापें।\n3. देखें कि SIM सही तरफ़ से लगी है, चालू है और डेटा है।\n4. 4G एंटीना कसकर लगाएँ।\n5. 10 सेकंड बंद करें, चालू करें, 3 मिनट रुकें।"
+      }
+    },
+    {
+      "id": "sim-apn", "topic": "online",
+      "q": { "en": "Which SIM and APN are used?", "hi": "कौन सी SIM और APN इस्तेमाल होती है?" },
+      "keywords": ["sim", "apn", "airtel", "data plan", "सिम", "एपीएन", "एयरटेल"],
+      "a": {
+        "en": "The usual SIM is an Airtel IoT SIM with APN airteliot.com. The SIM must be active and have a data plan. A phone SIM without data will not work.",
+        "hi": "आम SIM Airtel IoT SIM है, APN airteliot.com। SIM चालू हो और उसमें डेटा प्लान हो। बिना डेटा वाली फ़ोन SIM काम नहीं करेगी।"
+      }
+    },
+    {
+      "id": "led-meaning", "topic": "rfid",
+      "q": { "en": "What do the cabinet LED blinks mean?", "hi": "कैबिनेट की LED ब्लिंक का क्या मतलब है?" },
+      "keywords": ["led", "blink", "light", "pulse", "meaning", "लाइट", "ब्लिंक", "मतलब"],
+      "a": {
+        "en": "One long pulse after a tap: card approved. Three fast blinks: card refused. A short blink: a command was received. A repeating error pattern: the RFID reader is not answering or the card could not be read; tap again.",
+        "hi": "टैप के बाद एक लंबी जलन: कार्ड मंज़ूर। तीन तेज़ ब्लिंक: कार्ड मंज़ूर नहीं। छोटी ब्लिंक: कमांड मिली। बार-बार एरर पैटर्न: RFID रीडर जवाब नहीं दे रहा या कार्ड पढ़ा नहीं गया; फिर टैप करें।"
+      }
+    },
+    {
+      "id": "card-refused", "topic": "rfid",
+      "q": { "en": "My card is refused (3 fast blinks)", "hi": "मेरा कार्ड मंज़ूर नहीं हो रहा (3 तेज़ ब्लिंक)" },
+      "keywords": ["card", "refused", "denied", "not allowed", "rfid", "कार्ड", "मंज़ूर नहीं", "रिजेक्ट"],
+      "a": {
+        "en": "The server refused the card. The server's decision is final. Ask the office to check this card is registered for this cabinet. The installer cannot override it.",
+        "hi": "सर्वर ने कार्ड मंज़ूर नहीं किया। सर्वर का फ़ैसला अंतिम है। ऑफ़िस से पूछें कि कार्ड इस कैबिनेट के लिए रजिस्टर है या नहीं। इंस्टॉलर इसे बदल नहीं सकता।"
+      }
+    },
+    {
+      "id": "card-whitelist", "topic": "rfid",
+      "q": { "en": "What is the offline card list (whitelist)?", "hi": "ऑफ़लाइन कार्ड सूची (व्हाइटलिस्ट) क्या है?" },
+      "keywords": ["whitelist", "offline", "list", "server down", "व्हाइटलिस्ट", "सूची", "ऑफ़लाइन"],
+      "a": {
+        "en": "Cards on this list can open the lock ONLY when the server or the mobile network cannot be reached. When the server answers, its decision is always used. Change the list only when asked, in Cabinet settings.",
+        "hi": "इस सूची के कार्ड लॉक तभी खोल सकते हैं जब सर्वर या मोबाइल नेटवर्क तक न पहुँच पाएँ। जब सर्वर जवाब देता है, तो हमेशा उसका फ़ैसला चलता है। सूची तभी बदलें जब कहा जाए, कैबिनेट सेटिंग्स में।"
+      }
+    },
+    {
+      "id": "card-second-tap", "topic": "rfid",
+      "q": { "en": "The lock closes when I tap the card again", "hi": "कार्ड दोबारा टैप करने पर लॉक बंद हो जाता है" },
+      "keywords": ["second tap", "again", "closes", "toggle", "twice", "दोबारा", "दो बार", "बंद"],
+      "a": {
+        "en": "That is correct. Tapping an approved card while the lock is open locks it again. A tap within 2 seconds of the last one is ignored, so wait 2 seconds between taps.",
+        "hi": "यह सही है। लॉक खुला हो तब मंज़ूर कार्ड टैप करने से लॉक फिर बंद होता है। पिछले टैप के 2 सेकंड के अंदर का टैप नहीं गिना जाता, इसलिए टैप के बीच 2 सेकंड रुकें।"
+      }
+    },
+    {
+      "id": "card-nothing", "topic": "rfid", "fix": "rfid",
+      "q": { "en": "Nothing happens when I tap a card", "hi": "कार्ड टैप करने पर कुछ नहीं होता" },
+      "keywords": ["nothing", "no response", "not reading", "tap", "rfid", "reader", "कुछ नहीं", "पढ़", "रीडर"],
+      "a": {
+        "en": "1. Hold the card flat on the centre of the reader for 1 second.\n2. Remove metal near or behind the reader.\n3. Try another card.\n4. Check the reader cable for a loose plug or a broken wire. A broken wire makes the reader go offline on and off.\n5. Measure 3.3 V at the reader pins (3.2-3.4 V).",
+        "hi": "1. कार्ड को रीडर के बीच में 1 सेकंड सीधा रखें।\n2. रीडर के पास या पीछे की धातु हटाएँ।\n3. दूसरा कार्ड आज़माएँ।\n4. रीडर केबल में ढीला प्लग या टूटी तार देखें। टूटी तार से रीडर बार-बार बंद-चालू होता है।\n5. रीडर के पिन पर 3.3 V नापें (3.2-3.4 V)।"
+      }
+    },
+    {
+      "id": "reader-offline", "topic": "rfid", "fix": "rfid",
+      "q": { "en": "The app says RFID reader offline", "hi": "ऐप में RFID रीडर ऑफ़लाइन दिख रहा है" },
+      "keywords": ["reader", "offline", "rfid", "not responding", "रीडर", "ऑफ़लाइन", "जवाब नहीं"],
+      "a": {
+        "en": "The controller cannot talk to the reader. Most often it is the reader cable: a loose plug or a broken wire inside the insulation. Press the connector gently; if the reader comes back, fix the cable or solder the wires. If the cable is fine, measure 3.3 V at the reader, then try a spare reader.",
+        "hi": "कंट्रोलर रीडर से बात नहीं कर पा रहा। ज़्यादातर रीडर केबल की समस्या होती है: ढीला प्लग या इंसुलेशन के अंदर टूटी तार। कनेक्टर को हल्के से दबाएँ; अगर रीडर लौट आए, तो केबल ठीक करें या तार सोल्डर करें। केबल ठीक हो तो रीडर पर 3.3 V नापें, फिर दूसरा रीडर लगाकर देखें।"
+      }
+    },
+    {
+      "id": "lock-open-time", "topic": "lock",
+      "q": { "en": "How long does the lock stay open?", "hi": "लॉक कितनी देर खुला रहता है?" },
+      "keywords": ["lock", "open time", "how long", "seconds", "minutes", "लॉक", "कितनी देर", "समय"],
+      "a": {
+        "en": "It is a cabinet setting, 5 seconds to 30 minutes, separately for a card tap and a remote unlock. The old default is 5 minutes. 5-10 seconds is better for the lock and the power supply. Change it in Cabinet settings → Lock open time.",
+        "hi": "यह कैबिनेट की सेटिंग है, 5 सेकंड से 30 मिनट, कार्ड टैप और रिमोट अनलॉक के लिए अलग-अलग। पुराना डिफ़ॉल्ट 5 मिनट है। 5-10 सेकंड लॉक और पावर के लिए बेहतर है। कैबिनेट सेटिंग्स → लॉक खुलने का समय में बदलें।"
+      }
+    },
+    {
+      "id": "lock-not-open", "topic": "lock", "fix": "lock",
+      "q": { "en": "The lock does not open", "hi": "लॉक नहीं खुलता" },
+      "keywords": ["lock", "not open", "stuck", "relay", "click", "लॉक", "नहीं खुलता", "अटका", "रिले"],
+      "a": {
+        "en": "1. Listen for the relay click when the lock should open. No click: relay or controller problem, call an engineer.\n2. Click but no movement: measure the voltage at the two lock wires while it should be open. About 12 V means the lock or latch is stuck or faulty. Much lower or 0 V means a wiring problem.\n3. The app's Fix a problem → Lock guides you step by step.",
+        "hi": "1. लॉक खुलना चाहिए तब रिले की क्लिक सुनें। क्लिक नहीं: रिले या कंट्रोलर की समस्या, इंजीनियर बुलाएँ।\n2. क्लिक है पर लॉक नहीं हिलता: लॉक खुला होना चाहिए तब उसकी दोनों तारों पर वोल्टेज नापें। करीब 12 V = लॉक या लैच अटका या खराब। बहुत कम या 0 V = वायरिंग की समस्या।\n3. ऐप में समस्या ठीक करें → लॉक स्टेप बाय स्टेप मदद करता है।"
+      }
+    },
+    {
+      "id": "lock-stays-open", "topic": "lock", "fix": "lock",
+      "q": { "en": "The lock stays open", "hi": "लॉक खुला ही रहता है" },
+      "keywords": ["stays open", "not closing", "not lock", "खुला रहता", "बंद नहीं होता"],
+      "a": {
+        "en": "It closes by itself after the set open time. To close it now, send RELAY_OFF (it asks for your approval twice). If it still stays open, check the door closes fully, the latch lines up, and the lock is wired to NO (normally open) on the relay.",
+        "hi": "तय समय के बाद यह अपने आप बंद होता है। अभी बंद करने के लिए RELAY_OFF भेजें (यह दो बार मंज़ूरी माँगेगा)। फिर भी खुला रहे तो देखें कि दरवाज़ा पूरा बंद होता है, लैच सीध में है, और लॉक रिले के NO (normally open) पर जुड़ा है।"
+      }
+    },
+    {
+      "id": "battery-no-data", "topic": "bms", "fix": "bms",
+      "q": { "en": "No battery data in the app", "hi": "ऐप में बैटरी डेटा नहीं आ रहा" },
+      "keywords": ["battery", "bms", "no data", "voltage", "soc", "बैटरी", "डेटा", "बीएमएस"],
+      "a": {
+        "en": "1. Wake the battery: press its button or connect the charger for a moment.\n2. Check the BMS cable is plugged in fully at both ends.\n3. TX and RX must not be swapped, and GND must be connected.\nOn a bench with no battery, no data is normal.",
+        "hi": "1. बैटरी जगाएँ: उसका बटन दबाएँ या थोड़ी देर चार्जर लगाएँ।\n2. देखें कि BMS केबल दोनों तरफ़ पूरी लगी है।\n3. TX और RX उल्टे न हों, और GND जुड़ा हो।\nबेंच पर बैटरी न हो तो डेटा न आना सामान्य है।"
+      }
+    },
+    {
+      "id": "battery-output-off", "topic": "bms", "fix": "output",
+      "q": { "en": "The vehicle gets no power from the battery", "hi": "गाड़ी को बैटरी से बिजली नहीं मिल रही" },
+      "keywords": ["no power", "output", "vehicle dead", "not starting", "battery off", "बिजली नहीं", "आउटपुट", "गाड़ी बंद"],
+      "a": {
+        "en": "Look at the Battery tile. Output OFF with no protection: you can send BATTERY_ON (approval twice). Protection on: the battery protected itself (too low, too hot, too much current); fix that cause first. Output ON: the problem is after the battery: fuse, connector, key switch, controller.",
+        "hi": "बैटरी टाइल देखें। आउटपुट बंद और कोई सुरक्षा नहीं: BATTERY_ON भेज सकते हैं (दो बार मंज़ूरी)। सुरक्षा चालू: बैटरी ने खुद को बचाया (बहुत कम, बहुत गरम, ज़्यादा करंट); पहले वह कारण ठीक करें। आउटपुट चालू: समस्या बैटरी के बाद है: फ़्यूज़, कनेक्टर, चाबी स्विच, कंट्रोलर।"
+      }
+    },
+    {
+      "id": "battery-protection", "topic": "bms",
+      "q": { "en": "What does battery protection mean?", "hi": "बैटरी सुरक्षा (protection) का क्या मतलब है?" },
+      "keywords": ["protection", "over voltage", "under voltage", "temperature", "short", "सुरक्षा", "प्रोटेक्शन", "गरम"],
+      "a": {
+        "en": "The BMS switched the output off to protect the battery. Low voltage: charge it. Too hot: let it cool in the shade. Too much current or short circuit: check the vehicle wiring and motor controller before switching on again.",
+        "hi": "BMS ने बैटरी बचाने के लिए आउटपुट बंद किया। वोल्टेज कम: चार्ज करें। बहुत गरम: छाँव में ठंडा होने दें। ज़्यादा करंट या शॉर्ट सर्किट: दोबारा चालू करने से पहले गाड़ी की वायरिंग और मोटर कंट्रोलर जाँचें।"
+      }
+    },
+    {
+      "id": "restarts", "topic": "power", "fix": "power",
+      "q": { "en": "The cabinet keeps restarting", "hi": "कैबिनेट बार-बार रीस्टार्ट होता है" },
+      "keywords": ["restart", "reboot", "brownout", "power", "resets", "रीस्टार्ट", "बार-बार", "बिजली"],
+      "a": {
+        "en": "Most often the supply voltage dips. Measure 12 V at the board input while the lock is open: it must stay above 11.4 V. Tighten all power connectors. Use a 12 V 3 A adapter. Shorten the lock open time to 5-10 seconds.",
+        "hi": "ज़्यादातर सप्लाई वोल्टेज गिरता है। लॉक खुला रहते बोर्ड इनपुट पर 12 V नापें: 11.4 V से ऊपर रहना चाहिए। सारे पावर कनेक्टर कसें। 12 V 3 A अडैप्टर लगाएँ। लॉक खुलने का समय 5-10 सेकंड करें।"
+      }
+    },
+    {
+      "id": "adapter", "topic": "power",
+      "q": { "en": "Which power adapter should I use?", "hi": "कौन सा पावर अडैप्टर लगाएँ?" },
+      "keywords": ["adapter", "supply", "12v", "amp", "charger", "अडैप्टर", "सप्लाई"],
+      "a": {
+        "en": "12 V, at least 3 A. A 2 A adapter is too close to the peak load when the lock and the modem work together.",
+        "hi": "12 V, कम से कम 3 A। जब लॉक और मॉडेम साथ चलते हैं तो 2 A का अडैप्टर सीमा के बहुत पास होता है।"
+      }
+    },
+    {
+      "id": "cabinet-wifi", "topic": "settings",
+      "q": { "en": "How do I open the cabinet settings?", "hi": "कैबिनेट सेटिंग्स कैसे खोलें?" },
+      "keywords": ["settings", "wifi", "ap", "configure", "सेटिंग्स", "वाईफाई"],
+      "a": {
+        "en": "In the app: Cabinet settings → Connect to cabinet Wi-Fi, then tap Connect in Android's box. The app knows the password. While connected, the app cannot talk to the server; tap Disconnect and go back when done.",
+        "hi": "ऐप में: कैबिनेट सेटिंग्स → कैबिनेट Wi-Fi से जुड़ें, फिर Android के बॉक्स में Connect दबाएँ। ऐप पासवर्ड जानता है। जुड़े रहने तक ऐप सर्वर से बात नहीं कर सकता; काम होने पर डिस्कनेक्ट करके वापस जाएँ दबाएँ।"
+      }
+    },
+    {
+      "id": "cabinet-wifi-missing", "topic": "settings",
+      "q": { "en": "The cabinet Wi-Fi is not found", "hi": "कैबिनेट का Wi-Fi नहीं मिल रहा" },
+      "keywords": ["wifi not found", "boot button", "no wifi", "ap", "वाईफाई नहीं", "बूट बटन"],
+      "a": {
+        "en": "The cabinet Wi-Fi is on for 5 minutes after power-up and turns off when nobody uses it. Press the BOOT button on the controller ONCE and wait 10 seconds. Stand within 5 metres.",
+        "hi": "कैबिनेट Wi-Fi बिजली आने के बाद 5 मिनट चालू रहता है और इस्तेमाल न होने पर बंद हो जाता है। कंट्रोलर पर BOOT बटन एक बार दबाएँ और 10 सेकंड रुकें। 5 मीटर के अंदर खड़े हों।"
+      }
+    },
+    {
+      "id": "too-soon", "topic": "commands",
+      "q": { "en": "The cabinet answered \"too soon\"", "hi": "कैबिनेट ने \"too soon\" जवाब दिया" },
+      "keywords": ["too soon", "wait", "command", "बहुत जल्दी", "रुकें"],
+      "a": {
+        "en": "That command was sent less than 30 seconds after the same one. Wait 30 seconds and send it again.",
+        "hi": "वही कमांड 30 सेकंड के अंदर दोबारा भेजी गई। 30 सेकंड रुकें और फिर भेजें।"
+      }
+    },
+    {
+      "id": "no-answer", "topic": "commands",
+      "q": { "en": "A command got no answer", "hi": "कमांड का जवाब नहीं आया" },
+      "keywords": ["no answer", "no ack", "timeout", "command", "जवाब नहीं"],
+      "a": {
+        "en": "Wait 15 seconds for the answer. If none comes, send it again, at most 3 times, 1-3 seconds after the previous command. Still no answer: the cabinet may be offline; check the Online tile.",
+        "hi": "जवाब के लिए 15 सेकंड रुकें। न आए तो फिर भेजें, ज़्यादा से ज़्यादा 3 बार, पिछली कमांड के 1-3 सेकंड बाद। फिर भी जवाब नहीं: कैबिनेट शायद ऑफ़लाइन है; ऑनलाइन टाइल देखें।"
+      }
+    },
+    {
+      "id": "second-confirmation", "topic": "commands",
+      "q": { "en": "Why must I type 4 characters for lock and battery commands?", "hi": "लॉक और बैटरी कमांड के लिए 4 अक्षर क्यों लिखने पड़ते हैं?" },
+      "keywords": ["confirm", "4 characters", "second", "lock", "battery", "पुष्टि", "4 अक्षर"],
+      "a": {
+        "en": "These commands can open the cabinet or cut power to the vehicle. Typing the last 4 characters of the Cabinet ID makes sure it is the right cabinet and a deliberate action. The vehicle must be parked, switched off and not moving.",
+        "hi": "ये कमांड कैबिनेट खोल सकती हैं या गाड़ी की बिजली काट सकती हैं। कैबिनेट ID के आखिरी 4 अक्षर लिखने से पक्का होता है कि सही कैबिनेट है और काम जानबूझकर हो रहा है। गाड़ी खड़ी, बंद और स्थिर होनी चाहिए।"
+      }
+    },
+    {
+      "id": "firmware", "topic": "general",
+      "q": { "en": "The app says firmware is not the latest", "hi": "ऐप कह रहा है फ़र्मवेयर नया नहीं है" },
+      "keywords": ["firmware", "update", "version", "old", "फ़र्मवेयर", "अपडेट", "वर्ज़न"],
+      "a": {
+        "en": "Tell the office. Firmware is updated remotely by JD Mobility; installers do not update it from the app.",
+        "hi": "ऑफ़िस को बताएँ। फ़र्मवेयर JD Mobility दूर से अपडेट करती है; इंस्टॉलर ऐप से इसे अपडेट नहीं करते।"
+      }
+    },
+    {
+      "id": "ai-decides", "topic": "general",
+      "q": { "en": "Can the AI fix the cabinet by itself?", "hi": "क्या AI खुद कैबिनेट ठीक कर सकता है?" },
+      "keywords": ["ai", "automatic", "decide", "itself", "एआई", "खुद"],
+      "a": {
+        "en": "No. The AI only gives advice and can be wrong. It cannot send commands or change settings. You decide and you approve every action.",
+        "hi": "नहीं। AI सिर्फ़ सलाह देता है और गलत भी हो सकता है। यह कमांड नहीं भेज सकता, न सेटिंग बदल सकता है। फ़ैसला आप करते हैं और हर काम आप मंज़ूर करते हैं।"
+      }
+    },
+    {
+      "id": "report", "topic": "general",
+      "q": { "en": "How do I send the report?", "hi": "रिपोर्ट कैसे भेजें?" },
+      "keywords": ["report", "pdf", "share", "send", "रिपोर्ट", "भेजें", "पीडीएफ"],
+      "a": {
+        "en": "Home → Report → Share PDF, then pick WhatsApp, email or Drive. Then press Save and finish.",
+        "hi": "होम → रिपोर्ट → PDF भेजें, फिर WhatsApp, ईमेल या Drive चुनें। फिर सेव करके खत्म करें दबाएँ।"
+      }
+    }
+  ]
+}
